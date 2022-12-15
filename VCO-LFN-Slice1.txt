@@ -1,0 +1,1062 @@
+networks
+  network
+    network-id 1
+    network-types
+      l1-network
+    l1-network-attributes
+      name VFabric_Resources_Network
+    node
+      node-id 1
+      l1-node-attributes
+        oper-status up
+        resources-distribution-status normal
+      link-aggregation
+      termination-point
+        tp-id f2b37c14-cc73-43f6-a92e-1496ad95b941
+        name LF2:p20s1-S11-3c:fd:fe:b4:cc:bc
+        attachable true
+        l1-termination-point-attributes
+          name LF2:p20s1-S11-3c:fd:fe:b4:cc:bc
+          oper-status up
+          tp-type physical
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:b4:cc:bc
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:b4:cc:bc
+        annotations
+          the-key SDF:NodeID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodePeerID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+      termination-point
+        tp-id acf8745b-2388-41dd-a87a-38f06369bc37
+        name UPF-sw1p11s1-N3
+        attachable true
+        l1-termination-point-attributes
+          name UPF-sw1p11s1-N3
+          oper-status up
+          tp-type system
+          phys-address 04:f8:f8:c0:40:42
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key SDF:SubType
+          value ACCESS
+        annotations
+          the-key LLDP:SystemDescription
+          value upfcontroller node (fabric:233)
+        annotations
+          the-key LLDP:ChassisID
+          value 0x0090fb6ebb0b
+        annotations
+          the-key LLDP:PortID
+          value sw1p11s1
+        annotations
+          the-key LLDP:PortDescription
+          value Ethernet Port
+        annotations
+          the-key LLDP:SystemName
+          value ak21037989-upf
+      termination-point
+        tp-id 25700386-7ec6-4037-9b67-8f3e3c2ee797
+        name UPF-sw1p27s1-N6
+        attachable true
+        l1-termination-point-attributes
+          name UPF-sw1p27s1-N6
+          oper-status up
+          tp-type system
+          phys-address 04:f8:f8:c0:40:82
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key LLDP:PortDescription
+          value Ethernet Port
+        annotations
+          the-key LLDP:SystemName
+          value ak21037989-upf
+        annotations
+          the-key LLDP:SystemDescription
+          value upfcontroller node (fabric:233)
+        annotations
+          the-key LLDP:ChassisID
+          value 0x0090fb6ebb0b
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key SDF:SubType
+          value DATA
+        annotations
+          the-key LLDP:PortID
+          value sw1p27s1
+      termination-point
+        tp-id 38169cfc-7f76-48ef-a43d-ba6bef0df5d9
+        name LF2:p19s1-S09-3c:fd:fe:d4:e6:e4
+        attachable true
+        l1-termination-point-attributes
+          name LF2:p19s1-S09-3c:fd:fe:d4:e6:e4
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodeID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodePeerID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:d4:e6:e4
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:d4:e6:e4
+      termination-point
+        tp-id e1b40dfc-5893-487d-ab09-683482a755ae
+        name LF1:p19s1-S09-3c:fd:fe:d4:e6:e5
+        attachable true
+        l1-termination-point-attributes
+          name LF1:p19s1-S09-3c:fd:fe:d4:e6:e5
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:d4:e6:e5
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:d4:e6:e5
+      termination-point
+        tp-id 65e69c66-51c9-4a77-88c7-dd2d8073e5c7
+        name LF1:p19s2-S09-3c:fd:fe:d4:e6:ac
+        attachable true
+        l1-termination-point-attributes
+          name LF1:p19s2-S09-3c:fd:fe:d4:e6:ac
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:d4:e6:ac
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:d4:e6:ac
+      termination-point
+        tp-id 8e4d602d-afd2-4a9c-81df-1a5ad84a07c5
+        name LF1:p19s4-S10-3c:fd:fe:b4:d2:6c
+        attachable true
+        l1-termination-point-attributes
+          name LF1:p19s4-S10-3c:fd:fe:b4:d2:6c
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:b4:d2:6c
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:b4:d2:6c
+      termination-point
+        tp-id c3f0c6d7-6e94-4926-a99d-c49d310f1c34
+        name LF2:p19s3-S10-3c:fd:fe:b4:d2:60
+        attachable true
+        l1-termination-point-attributes
+          name LF2:p19s3-S10-3c:fd:fe:b4:d2:60
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodePeerID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key SDF:NodeID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:b4:d2:60
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:b4:d2:60
+      termination-point
+        tp-id 4ac2467e-8e47-4737-b087-c4e6778a106c
+        name LF1:p19s3-S10- 3c:fd:fe:b4:d2:61
+        attachable true
+        l1-termination-point-attributes
+          name LF1:p19s3-S10- 3c:fd:fe:b4:d2:61
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key LLDP:PortID
+          value 3c:fd:fe:b4:d2:61
+        annotations
+          the-key LLDP:ChassisID
+          value 3c:fd:fe:b4:d2:61
+      termination-point
+        tp-id c67dd6dc-f071-460b-a881-e2fd0d40ddad
+        name Server0-Leaf1port26s1
+        attachable true
+        l1-termination-point-attributes
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+      termination-point
+        tp-id 969986b6-f8dd-492d-848d-a1940493eb70
+        name Server0-Leaf1port28s1
+        attachable true
+        l1-termination-point-attributes
+          name Server0-Leaf1port28s1
+          oper-status up
+          tp-type physical
+        annotations
+          the-key SDF:NodeID
+          value 9c966d9c-2658-48b4-8894-1a19a75b1e8c
+        annotations
+          the-key SDF:NodePeerID
+          value 9eca8dab-4d73-414b-b9c4-7c05a341c5b8
+  network
+    network-id 2
+    network-types
+      l2-network
+    l2-network-attributes
+      name VFabric_Default_L2_Network
+    node
+      node-id 4ffa2e09-c2e4-402f-bc89-8f5e01136af4
+      l2-node-attributes
+        name ExternalNetwork-1827
+        description VLAN 1827 Traffic
+        KNID 18577346135607613
+        SNI 1967671613
+        oper-status up
+        exportations
+        importation
+          vfabric-id 65535
+          imported-date 2021-06-18T02:45:59Z
+          l3-subnets-info
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable true
+        nd-table-aging-time 300
+        nd-suppression-enable true
+    node
+      node-id 93ddbffd-307d-44ab-b151-073ba9c926e3
+      l2-node-attributes
+        name vco-cluster01-infra
+        description Infra services for VCO cluster01
+        KNID 18577348267715781
+        SNI 4099779781
+        oper-status up
+        exportations
+        importation
+          vfabric-id 65535
+          imported-date 2021-06-18T02:45:59Z
+          l3-subnets-info
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable false
+        nd-table-aging-time 300
+        nd-suppression-enable false
+      termination-point
+        tp-id 38169cfc-7f76-48ef-a43d-ba6bef0df5d9
+        name LF2:p19s1-S09-3c:fd:fe:d4:e6:e4-untagged
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 0
+          oper-status up
+          vni 0
+      termination-point
+        tp-id c3f0c6d7-6e94-4926-a99d-c49d310f1c34
+        name LF2:p19s3-S10-3c:fd:fe:b4:d2:60-untagged
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 0
+          oper-status up
+          vni 0
+      termination-point
+        tp-id f2b37c14-cc73-43f6-a92e-1496ad95b941
+        name LF2:p20s1-S11-3c:fd:fe:b4:cc:bc-untagged
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 0
+          oper-status up
+          vni 0
+      termination-point
+        tp-id c67dd6dc-f071-460b-a881-e2fd0d40ddad
+        name Server0-Leaf1port26s1-untagged
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id L2:N3-CapG-to-Slice-Blue
+      l2-node-attributes
+        name L2:N3-CapG-to-Slice-Blue
+        description external access to N3
+        KNID 18295880706119303
+        oper-status up
+        exportations
+          exportation
+            vfabric-id 8
+            imported-date 2021-08-17T17:45:37Z
+            attachments
+              tp-attachment-count 0
+              router-attachment-count 1
+              vtep-attachment-count 0
+            l3-subnets-info
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable true
+        nd-table-aging-time 300
+        nd-suppression-enable true
+      termination-point
+        tp-id adc6ddd0-f41b-4c3e-8203-6950ce20e7c7
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id L2:N4-CapG-to-Slice-Blue
+      l2-node-attributes
+        name L2:N4-CapG-to-Slice-Blue
+        description external access to N4
+        KNID 18295878278404691
+        oper-status up
+        exportations
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable true
+        nd-table-aging-time 300
+        nd-suppression-enable true
+      termination-point
+        tp-id 65e69c66-51c9-4a77-88c7-dd2d8073e5c7
+        name LF1:p19s2-S09-3c:fd:fe:d4:e6:ac-untagged
+        attachable false
+        l2-termination-point-attributes
+          description external access to N4
+          encapsulation-type VLAN
+          vlan-id 0
+          oper-status up
+          vni 0
+      termination-point
+        tp-id ff95da5d-ec07-4b20-9bf1-5affb658e41d
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id L2:N6-CapG-to-Slice-Blue
+      l2-node-attributes
+        name L2:N6-CapG-to-Slice-Blue
+        description external access to N6
+        KNID 18295880060308090
+        oper-status up
+        exportations
+          exportation
+            vfabric-id 8
+            imported-date 2021-08-17T17:45:37Z
+            attachments
+              tp-attachment-count 0
+              router-attachment-count 1
+              vtep-attachment-count 0
+            l3-subnets-info
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable true
+        nd-table-aging-time 300
+        nd-suppression-enable true
+      termination-point
+        tp-id d8482d3e-2e43-4d50-a276-648fce14ce62
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id 236428a0-6b28-43ee-a425-4ca58bee69b3-02717ff3-ea59-4152-b3f4-6f1d9989b851-n4c
+      l2-node-attributes
+        name Switch_For_Network_Identity_2000318403
+        KNID 18295879781478339
+        SNI 2000318403
+        oper-status up
+        exportations
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable false
+        nd-table-aging-time 300
+        nd-suppression-enable false
+      termination-point
+        tp-id a5f13f8b-f16a-4a21-95e5-c24f397cee22
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1001
+      l2-node-attributes
+        name Switch_For_Network_Identity_774353759
+        KNID 18295878555513695
+        SNI 774353759
+        oper-status up
+        exportations
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable false
+        nd-table-aging-time 300
+        nd-suppression-enable false
+      termination-point
+        tp-id 25700386-7ec6-4037-9b67-8f3e3c2ee797
+        name UPF-sw1p27s1-N6-VLAN1001
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 1001
+          oper-status up
+          vni 0
+      termination-point
+        tp-id aacda827-a6c0-4125-b426-4536c02ab197
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+    node
+      node-id upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1002
+      l2-node-attributes
+        name Switch_For_Network_Identity_551042484
+        KNID 18295878332202420
+        SNI 551042484
+        oper-status up
+        exportations
+      vl2-mac
+        mac-address-table-aging-time 300
+        mac-address-table-aging-enable true
+      vl2-neighbors
+        arp-table-aging-time 300
+        arp-suppression-enable false
+        nd-table-aging-time 300
+        nd-suppression-enable false
+      termination-point
+        tp-id acf8745b-2388-41dd-a87a-38f06369bc37
+        name UPF-sw1p11s1-N3-VLAN1002
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type VLAN
+          vlan-id 1002
+          oper-status up
+          vni 0
+      termination-point
+        tp-id 978fb573-9b94-47c0-9fca-8f0afd66a5bf
+        attachable false
+        l2-termination-point-attributes
+          encapsulation-type NONE
+          vlan-id 0
+          oper-status up
+          vni 0
+  network
+    network-id 3
+    network-types
+      l3-unicast-topology
+    l3-topology-attributes
+      name VFabric_Default_L3_Network
+    node
+      node-id 02717ff3-ea59-4152-b3f4-6f1d9989b851
+      l3-node-type upf:l3-node-upf
+      l3-node-attributes
+        name vUPF-BLUE
+        description vUPF to slice UPF functionality
+        device-id 172e3950ef988
+        looking-glass-server false
+        oper-status up
+      interfaces
+      upf
+        snssai
+          sst 1
+          sd 123456
+          description slice-blue
+        pfcp
+          node-id upf-1.labs.kaloom.io
+          ignore-unsupported-ie true
+          supported-features
+            ftup
+              enable true
+            pdiu
+              enable false
+        nrf
+          heartbeat-timer 10
+          authentication
+        network-instances
+          network-instance
+            network-instance-id 236428a0-6b28-43ee-a425-4ca58bee69b3
+            name upf-1.labs.kaloom.io
+            default true
+            unnid 18295880602600880
+            description Default control network instance
+            router-attachment
+              network-ref 3
+              node-ref 35f19eff-915f-4eb1-9732-3bf74ee564aa
+            interfaces-5g
+              interface-5g
+                interface-id 28d258d1-e7a8-46bb-92f6-4def7dcb6899
+                name default-control-interface
+                description Default control 5g interface
+                control-serving-ipv4-prefix 172.24.11.12/30
+                control-serving-ipv4-selected 172.24.11.13
+                control-serving-ipv6-prefix fd24:11:0::12/127
+                control-serving-ipv6-selected fd24:11::12
+                uniid 18295879692871980
+                reference-point n4c
+                control-attachment
+                  mtu 1500
+                  control-mac 8e:91:3c:c2:4e:90
+                  attached-switch
+                    network-ref 2
+                    node-ref 236428a0-6b28-43ee-a425-4ca58bee69b3-02717ff3-ea59-4152-b3f4-6f1d9989b851-n4c
+                  attached-router-tp
+                    network-ref 3
+                    node-ref 35f19eff-915f-4eb1-9732-3bf74ee564aa
+                    tp-ref c40c8426-0e11-44f3-80e1-97e6b889035d
+              interface-5g
+                interface-id e5da9a21-752b-4bcb-9e10-3a73fa671cf2
+                name Access
+                uniid 18295881344518985
+                reference-point n3
+                data-serving-address 172.23.11.2
+                data-attachment
+                  sp-network-id 1
+                  sp-node-id 1
+                  sp-tp-id acf8745b-2388-41dd-a87a-38f06369bc37
+                  private-ipv4-subnet-prefix 192.168.23.6/30
+                  mtu 9000
+                  network-attachment-type l3-network
+                  attached-switch
+                    network-ref 2
+                    node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1002
+                  attached-switch-tp
+                    network-ref 2
+                    node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1002
+                    tp-ref acf8745b-2388-41dd-a87a-38f06369bc37
+                  attached-router-tp
+                    network-ref 3
+                    node-ref 35f19eff-915f-4eb1-9732-3bf74ee564aa
+                    tp-ref c5b54545-ccbf-441e-9939-6d2955fecd0a
+              interface-5g
+                interface-id a873e8a0-8558-4dcf-92e0-6b719f90bb86
+                name Core
+                uniid 18295879925326520
+                reference-point n6
+                data-serving-address 172.26.11.2
+                ue-ranges
+                data-attachment
+                  sp-network-id 1
+                  sp-node-id 1
+                  sp-tp-id 25700386-7ec6-4037-9b67-8f3e3c2ee797
+                  private-ipv4-subnet-prefix 192.168.26.6/30
+                  mtu 9000
+                  network-attachment-type l3-network
+                  attached-switch
+                    network-ref 2
+                    node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1001
+                  attached-switch-tp
+                    network-ref 2
+                    node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1001
+                    tp-ref 25700386-7ec6-4037-9b67-8f3e3c2ee797
+                  attached-router-tp
+                    network-ref 3
+                    node-ref 35f19eff-915f-4eb1-9732-3bf74ee564aa
+                    tp-ref 76356aa5-84ae-4131-9dd4-a936ab0a06e5
+    node
+      node-id 35f19eff-915f-4eb1-9732-3bf74ee564aa
+      l3-node-type l3-node-unicast-router
+      l3-node-attributes
+        name vupf-router
+        expected-replica-count 1
+        actual-replica-count 1
+        device-id 153fe4ff7fc55
+        looking-glass-server false
+        oper-status up
+      interfaces
+        interface
+          name net70cce38cf096
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-07-08T17:07:01Z
+          phys-address e6:9d:49:a5:61:c9
+          ipv4
+            enabled true
+            forwarding true
+            mtu 1500
+            address
+              ip 172.24.11.17
+              prefix-length 28
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 1500
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::e49d:49ff:fea5:61c9
+              prefix-length 10
+              origin link-layer
+              status unknown
+            address
+              ip fd24:11:10::17
+              prefix-length 120
+              origin static
+              status unknown
+        interface
+          name net23af0362db54
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-07-08T17:07:21Z
+          phys-address 82:b3:dc:fd:8e:67
+          ipv4
+            enabled true
+            forwarding true
+            mtu 1500
+            address
+              ip 172.23.11.17
+              prefix-length 28
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 1500
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::80b3:dcff:fefd:8e67
+              prefix-length 10
+              origin link-layer
+              status unknown
+            address
+              ip fd23:11:10::17
+              prefix-length 120
+              origin static
+              status unknown
+        interface
+          name netf0b763c282fd
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-07-08T17:07:38Z
+          phys-address ee:69:ed:1e:a4:0b
+          ipv4
+            enabled true
+            forwarding true
+            mtu 1500
+            address
+              ip 172.26.11.17
+              prefix-length 28
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 1500
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::ec69:edff:fe1e:a40b
+              prefix-length 10
+              origin link-layer
+              status unknown
+            address
+              ip fd26:11:10::17
+              prefix-length 120
+              origin static
+              status unknown
+        interface
+          name net3badbb405e60
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-07-08T17:08:27Z
+          phys-address 7a:14:c7:15:71:c5
+          ipv4
+            enabled true
+            forwarding true
+            mtu 1500
+            address
+              ip 172.24.11.14
+              prefix-length 30
+              origin static
+            neighbor
+              ip 172.24.11.13
+              link-layer-address 8e:91:3c:c2:4e:90
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 1500
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::7814:c7ff:fe15:71c5
+              prefix-length 10
+              origin link-layer
+              status unknown
+            address
+              ip fd24:11::13
+              prefix-length 127
+              origin static
+            neighbor
+              ip fd24:11::12
+              link-layer-address 8e:91:3c:c2:4e:90
+              origin static
+        interface
+          name netcbbd1fbb5ebe
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-09-17T15:47:48Z
+          phys-address d6:17:ca:d3:0a:ba
+          ipv4
+            enabled true
+            forwarding true
+            mtu 9000
+            address
+              ip 192.168.26.6
+              prefix-length 30
+              origin static
+            neighbor
+              ip 192.168.26.5
+              link-layer-address 04:f8:f8:c0:40:82
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 9000
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::d417:caff:fed3:aba
+              prefix-length 10
+              origin link-layer
+              status unknown
+            neighbor
+              ip fe80::6f8:f8ff:fec0:4082
+              link-layer-address 04:f8:f8:c0:40:82
+              origin static
+        interface
+          name net9eff0e9d30cc
+          type ethernetCsmacd
+          enabled true
+          oper-status up
+          last-change 2021-09-17T15:48:09Z
+          phys-address a2:e6:47:22:1b:9f
+          ipv4
+            enabled true
+            forwarding true
+            mtu 9000
+            address
+              ip 192.168.23.6
+              prefix-length 30
+              origin static
+            neighbor
+              ip 192.168.23.5
+              link-layer-address 04:f8:f8:c0:40:42
+              origin static
+          ipv6
+            enabled true
+            forwarding true
+            mtu 9000
+            dup-addr-detect-transmits 1
+            ipv6-router-advertisements
+              send-advertisements false
+              max-rtr-adv-interval 600
+              min-rtr-adv-interval 198
+              managed-flag false
+              other-config-flag false
+              link-mtu 0
+              reachable-time 0
+              retrans-timer 0
+              cur-hop-limit 0
+              default-lifetime 1800
+              prefix-list
+            address
+              ip fe80::a0e6:47ff:fe22:1b9f
+              prefix-length 10
+              origin link-layer
+              status unknown
+            neighbor
+              ip fe80::6f8:f8ff:fec0:4042
+              link-layer-address 04:f8:f8:c0:40:42
+              origin static
+      network-instances
+      routing-policy
+        defined-sets
+          prefix-sets
+          neighbor-sets
+          tag-sets
+          bgp-defined-sets
+            community-sets
+            as-path-sets
+        policy-definitions
+      routing
+        vxlan
+          vteps
+        interfaces
+          interface
+            name net23af0362db54
+          interface
+            name net3badbb405e60
+          interface
+            name net70cce38cf096
+          interface
+            name net9eff0e9d30cc
+          interface
+            name netcbbd1fbb5ebe
+          interface
+            name netf0b763c282fd
+        control-plane-protocols
+          control-plane-protocol
+            type static
+            name static-routes
+            static-routes
+              ipv4
+                route
+                  destination-prefix 172.26.11.2/32
+                  next-hop
+                    outgoing-interface netcbbd1fbb5ebe
+                    next-hop-address 192.168.26.5
+                route
+                  destination-prefix 172.23.11.2/32
+                  next-hop
+                    outgoing-interface net9eff0e9d30cc
+                    next-hop-address 192.168.23.5
+                route
+                  destination-prefix 192.168.20.101/32
+                  next-hop
+                    outgoing-interface netcbbd1fbb5ebe
+                    next-hop-address 192.168.26.5
+                route
+                  destination-prefix 172.26.11.64/28
+                  next-hop
+                    outgoing-interface netf0b763c282fd
+                    next-hop-address 172.26.11.20
+                route
+                  destination-prefix 172.26.11.48/28
+                  next-hop
+                    outgoing-interface netf0b763c282fd
+                    next-hop-address 172.26.11.20
+                route
+                  destination-prefix 172.23.11.64/28
+                  next-hop
+                    outgoing-interface net23af0362db54
+                    next-hop-address 172.23.11.20
+                route
+                  destination-prefix 172.26.11.80/28
+                  next-hop
+                    outgoing-interface netf0b763c282fd
+                    next-hop-address 172.26.11.20
+                route
+                  destination-prefix 5.5.5.5/24
+                  next-hop
+                    outgoing-interface netf0b763c282fd
+                    next-hop-address 172.26.11.20
+              ipv6
+      supporting-node
+        network-ref 2
+        node-ref 236428a0-6b28-43ee-a425-4ca58bee69b3-02717ff3-ea59-4152-b3f4-6f1d9989b851-n4c
+      supporting-node
+        network-ref 2
+        node-ref L2:N3-CapG-to-Slice-Blue
+      supporting-node
+        network-ref 2
+        node-ref L2:N4-CapG-to-Slice-Blue
+      supporting-node
+        network-ref 2
+        node-ref L2:N6-CapG-to-Slice-Blue
+      supporting-node
+        network-ref 2
+        node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1001
+      supporting-node
+        network-ref 2
+        node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1002
+      termination-point
+        tp-id 76356aa5-84ae-4131-9dd4-a936ab0a06e5
+        attachable false
+        l3-termination-point-attributes
+          interface-name netcbbd1fbb5ebe
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1001
+          tp-ref aacda827-a6c0-4125-b426-4536c02ab197
+      termination-point
+        tp-id c5b54545-ccbf-441e-9939-6d2955fecd0a
+        attachable false
+        l3-termination-point-attributes
+          interface-name net9eff0e9d30cc
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref upf-1.labs.kaloom.io-02717ff3-ea59-4152-b3f4-6f1d9989b851-1002
+          tp-ref 978fb573-9b94-47c0-9fca-8f0afd66a5bf
+      termination-point
+        tp-id 6e1ed9ff-694e-4e43-b53a-9aec575f4501
+        attachable false
+        l3-termination-point-attributes
+          interface-name net70cce38cf096
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref L2:N4-CapG-to-Slice-Blue
+          tp-ref ff95da5d-ec07-4b20-9bf1-5affb658e41d
+      termination-point
+        tp-id 9a90332c-93ca-428e-b441-0d873ee07a04
+        attachable false
+        l3-termination-point-attributes
+          interface-name net23af0362db54
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref L2:N3-CapG-to-Slice-Blue
+          tp-ref adc6ddd0-f41b-4c3e-8203-6950ce20e7c7
+      termination-point
+        tp-id 4aca8de0-66bf-43a5-855b-b7e74070827f
+        attachable false
+        l3-termination-point-attributes
+          interface-name netf0b763c282fd
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref L2:N6-CapG-to-Slice-Blue
+          tp-ref d8482d3e-2e43-4d50-a276-648fce14ce62
+      termination-point
+        tp-id c40c8426-0e11-44f3-80e1-97e6b889035d
+        attachable false
+        l3-termination-point-attributes
+          interface-name net3badbb405e60
+          oper-status up
+        supporting-termination-point
+          network-ref 2
+          node-ref 236428a0-6b28-43ee-a425-4ca58bee69b3-02717ff3-ea59-4152-b3f4-6f1d9989b851-n4c
+          tp-ref a5f13f8b-f16a-4a21-95e5-c24f397cee22
+vfabric
+  vfabric-id 1
+  name vFabric-Altran-5GC-Slice1
+  vupf-feature-enabled true
+
