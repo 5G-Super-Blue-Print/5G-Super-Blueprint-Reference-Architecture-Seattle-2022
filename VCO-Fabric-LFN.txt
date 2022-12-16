@@ -1,3 +1,7 @@
+Link to access the main document: 5G Super Blueprint One Summit Demo 2022_Final_New ->
+https://github.com/5G-Super-Blue-Print/5G-Cloud-Native-Demo-Documentation-2022/blob/main/5G Super Blueprint One Summit Demo 2022_Final_New.pdf
+
+
 Fabric
   FabricID 233
   Name Fabric-233
