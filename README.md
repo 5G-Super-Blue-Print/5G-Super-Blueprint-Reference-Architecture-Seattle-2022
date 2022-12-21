@@ -1,4 +1,4 @@
-# 5G-Cloud-Native-Demo-Documentation-2022
+# 5G Super Blueprint-Reference Architecture Seattle-2022
 
 ## File Description
 This Document defines the process and the steps performed in the 5G Super Blueprint ONE Summit demo in November 2022.
