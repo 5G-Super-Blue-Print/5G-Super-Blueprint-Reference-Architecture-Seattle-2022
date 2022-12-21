@@ -1,7 +1,7 @@
 # 5G Super Blueprint Reference Architecture Seattle-2022
 
 ## File Description
-This Document defines the process and the steps performed in the 5G Super Blueprint ONE Summit demo in November 2022.
+This Document defines the process and the steps performed in the 5G Super Blueprint Reference Architecture Seattle 2022.
 
 * **VCO-LFN-Intervfabric** : Kaloom has configured the part both from the Switching and the UPF perspective. IntervFabric is used to allocate all the traffic between the two different UPFs and each UPF instance can share it.<br/>
 
