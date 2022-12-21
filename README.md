@@ -5,11 +5,11 @@ This Document defines the process and the steps performed in the 5G Super Bluepr
 
 * **VCO-LFN-Intervfabric** : Kaloom has configured the part both from the Switching and the UPF perspective. IntervFabric is used to allocate all the traffic between the two different UPFs and each UPF instance can share it.<br/>
 
-* **VCO-Fabric-LFN** : Contains the Fabric details used in this One Summit demo.<br/>
+* **VCO-Fabric-LFN** : Contains the Fabric details.<br/>
 
-* **VCO-LFN-Slice1** : This file contains the vco-slice1 information that is used in this demo.<br/>
+* **VCO-LFN-Slice1** : This file contains the vco-slice1 information.<br/>
 
-* **VCO-LFN-Slice2** : This file contains the vco-slice2 information that is used in this demo.<br/>
+* **VCO-LFN-Slice2** : This file contains the vco-slice2 information.<br/>
 
 * **Get Operational data of the vFabric** : This files contains the information of how to get the Operational data of the vFabric.<br/>
 
